@@ -1,7 +1,3 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
-/* 测试样式：如果页面背景变红，说明 CSS 文件被加载了 */
-body { background-color: red !important; }
-/* trigger redeploy */
