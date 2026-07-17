@@ -4,7 +4,7 @@ import { useEffect, useState, useRef, useCallback } from 'react';
 import { useRouter } from 'next/navigation';
 import { format } from 'date-fns';
 import { Send, Paperclip, LogOut, Settings, UserX, UserCheck, Circle, Search, Bell, User, UploadCloud } from 'lucide-react';
-import { getSupabase } from '@/lib/supabase';
+import { getSupabase } from '@/1ib/supabase';
 import type { Visitor, Message, AdminInfo } from '@/types';
 
 const bluePalette = ['bg-blue-500', 'bg-blue-600', 'bg-indigo-500', 'bg-cyan-500', 'bg-sky-500'];
