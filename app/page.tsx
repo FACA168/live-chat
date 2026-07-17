@@ -4,7 +4,7 @@ import { useEffect, useState, useRef, useCallback } from 'react';
 import { v4 as uuidv4 } from 'uuid';
 import { format } from 'date-fns';
 import { Paperclip, Send, User, UploadCloud } from 'lucide-react';
-import { getSupabase } from '@/1ib/supabase';
+import { getSupabase } from '@/lib/supabase';
 import type { Message } from '@/types';
 
 const bluePalette = ['bg-blue-500', 'bg-blue-600', 'bg-indigo-500', 'bg-cyan-500', 'bg-sky-500'];
